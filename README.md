@@ -97,5 +97,10 @@ Repositório dedicado ao estudo sobre como trabalhar com o servidor Linux, const
 > Para visualizar o conteúdo é só digital ```cat notas.txt```
 > 
 > O comando ```echo``` também manda uma mensagem para o arquivo e seria assim: ```echo hello world > notas.txt```
+>
+> Aqui foi utilizado o comando ```tar``` para compactar um arquivo, depois coloquei ele no diretório que eu escolhi e por fim, o removi usando o camando ```rm```
+> 
+> ![image](https://github.com/user-attachments/assets/92a4e676-fc2a-4949-9211-6feb2fcef060)
+
 
 
