@@ -78,7 +78,7 @@ Repositório dedicado ao estudo sobre como trabalhar com o servidor Linux, const
 > - ```shutdown``` Desliga o computador.
 > - ```mkdir``` Cria nova pasta, diretório.
 > - ```history``` visualizar a lista de comandos que foi executada.
-> - 
+> 
 >
 ## Explorando o Linux Server
 > ### Gerenciando arquivos
@@ -100,7 +100,18 @@ Repositório dedicado ao estudo sobre como trabalhar com o servidor Linux, const
 >
 > Aqui foi utilizado o comando ```tar``` para compactar um arquivo, depois coloquei ele no diretório que eu escolhi e por fim, o removi usando o camando ```rm```
 > 
-> ![image](https://github.com/user-attachments/assets/92a4e676-fc2a-4949-9211-6feb2fcef060)
+> ![image](https://github.com/user-attachments/assets/66bb8200-b951-425b-bb6b-4b15b64ff115)
+>
+> 
+> ### Criando diretórios
+> - ```mkdir -p``` é usado para criar diretórios aninhados.
+> 
+> - ```mv``` para mover arquivos.
+>  
+> - ```ls arc*``` lista arquivos iniciados por arc com qualquer sequência de caracteres adicionais, inclusive nada. Sendoa ssim, você conseguirá listar todos os arquivos que precisar analisar.
+>
+> 
+
 
 
 
