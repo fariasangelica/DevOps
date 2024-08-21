@@ -110,7 +110,10 @@ Repositório dedicado ao estudo sobre como trabalhar com o servidor Linux, const
 >  
 > - ```ls arc*``` lista arquivos iniciados por arc com qualquer sequência de caracteres adicionais, inclusive nada. Sendoa ssim, você conseguirá listar todos os arquivos que precisar analisar.
 >
-> 
+> PRATICA
+> - Crie dois diretórios chamados dir e dir 2 na mesma posição hierárquica
+> mkdir dir1 dir2
+  
 
 
 
