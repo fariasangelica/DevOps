@@ -62,7 +62,7 @@ Repositório dedicado ao estudo sobre como trabalhar com o servidor Linux, const
 >
 > *** A escalabilidade de recursos é uma característica essencial para um servidor que precisa lidar com grandes volumes de dados. Ela permite que o sistema utilize mais recursos em função do aumento na demanda, garantindo um desempenho consistente.
 >
-> ### * (BRINDE) Alguns comandos:
+> ### * Alguns comandos:
 > - ```ls```  lista dos arquivos e diretórios existentes dentro de um diretório.
 > - ```ls -a```  exibe nos resultados da listagem os arquivos e pastas ocultas existentes dentro do diretório.
 > - ```pwd```  retorna o caminho completo do diretório em que você se encontra.
@@ -150,22 +150,25 @@ Repositório dedicado ao estudo sobre como trabalhar com o servidor Linux, const
 > ### Processando textos para coleta de dados
 >
 > - O comando ```grep``` é um importante aliado que atua na busca de dados em arquivos ou fluxos de entrada do código (dados digitados por um usuário no teclado, por exemplo). Esse comando nos permite especificar palavras ou padrões para pesquisa.
->   ```grep - -help```
+> ```grep - -help```
 >
 > ```cat novo.txt | grep "padrão"```
 >
 > - Crie um script que utiliza comandos como ps e grep para monitorar os processos que estão utilizando uma porcentagem significativa da CPU:
 >
->   #!/bin/bash
-echo "Top 5 processos por uso de CPU:"
-
-ps aux --sort=-%cpu | head -n 6
+> ```#!/bin/bash```
+> 
+> ```echo "Top 5 processos por uso de CPU:"```
+>
+> ```ps aux --sort=-%cpu | head -n 6```
 >
 > - Desenvolva um script que utiliza comandos como ps e sort para exibir os processos que estão consumindo mais memória:
-> #!/bin/bash
-echo "Top 5 processos por uso de memória:"
-
-ps aux --sort=-%mem | head -n 6
+> 
+> ```#!/bin/bash```
+> 
+> ```echo "Top 5 processos por uso de memória:"```
+>
+> ```ps aux --sort=-%mem | head -n 6```
 >
 > 
  
