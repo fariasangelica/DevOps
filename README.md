@@ -102,6 +102,7 @@ Repositório dedicado ao estudo sobre como trabalhar com o servidor Linux, const
 > 
 > ![image](https://github.com/user-attachments/assets/66bb8200-b951-425b-bb6b-4b15b64ff115)
 >
+> * O operador >> é usado para adicionar (anexar) texto ao final de um arquivo existente ```echo "Bem-vindo ao Linux!" >> saudacao.txt```
 > 
 > ### Criando diretórios
 > - ```mkdir -p``` é usado para criar diretórios aninhados.
@@ -110,10 +111,64 @@ Repositório dedicado ao estudo sobre como trabalhar com o servidor Linux, const
 >  
 > - ```ls arc*``` lista arquivos iniciados por arc com qualquer sequência de caracteres adicionais, inclusive nada. Sendoa ssim, você conseguirá listar todos os arquivos que precisar analisar.
 >
-> PRATICA
-> - Crie dois diretórios chamados dir e dir 2 na mesma posição hierárquica
-> mkdir dir1 dir2
-  
+> PRÁTICA
+> - Crie dois diretórios chamados dir e dir 2 na mesma posição hierárquica:
+>   
+> ```mkdir dir1 dir2```
+>
+> - Entre no diretório dir e crie dois arquivos chamados data1 e data2:
+>   
+> ```cd dir```
+> ```touch data1 data2```
+>
+> - Copie somente o conteúdo de dir1 para dir2:
+>
+> ```cp -r dir1/* dir2```
+>
+> - Crie um novo diretório chamado dir3 e mova o conteúdo de dir1 e dir2 para dir3:
+>
+> ```mkdir dir3```
+> ```mv dir1/* dir3```
+>
+> 
+>  ## Shell scripting
+> ### Construindo scripts no shell
+> - A compreensão de práticas de scripting no shell possibilita que sejamos capazes de criar fluxos de trabalho otimizados, implementando práticas de integração e entrega contínuas. Além disso, essa abordagem facilita a configuração e gerenciamento da infraestrutura como código. Dessa forma, o aprofundamento dos estudos em Shell Scripting é um passo crucial no desenvolvimento como pessoa profissional em DevOps.
+> 
+> PRÁTICA
+> - Elabore um script simples que exiba uma mensagem de boas-vindas quando executado:
+> 
+> ```echo "Bem-vindo ao meu script!"```
+>
+> - Crie um script que solicite ao usuário o nome de um diretório e, em seguida, o crie:
+> 
+> ![image](https://github.com/user-attachments/assets/07284fbb-00d9-470b-812a-2857ec4c40d7)
+>
+> 
+> ## Monitoramento e agendamento
+> 
+> ### Processando textos para coleta de dados
+>
+> - O comando ```grep``` é um importante aliado que atua na busca de dados em arquivos ou fluxos de entrada do código (dados digitados por um usuário no teclado, por exemplo). Esse comando nos permite especificar palavras ou padrões para pesquisa.
+>   ```grep - -help```
+>
+> ```cat novo.txt | grep "padrão"```
+>
+> - Crie um script que utiliza comandos como ps e grep para monitorar os processos que estão utilizando uma porcentagem significativa da CPU:
+>
+>   #!/bin/bash
+echo "Top 5 processos por uso de CPU:"
+
+ps aux --sort=-%cpu | head -n 6
+>
+> - Desenvolva um script que utiliza comandos como ps e sort para exibir os processos que estão consumindo mais memória:
+> #!/bin/bash
+echo "Top 5 processos por uso de memória:"
+
+ps aux --sort=-%mem | head -n 6
+>
+> 
+ 
 
 
 
