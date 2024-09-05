@@ -144,7 +144,11 @@ Repositório dedicado ao estudo sobre como trabalhar com o servidor Linux, const
 > 
 > ![image](https://github.com/user-attachments/assets/07284fbb-00d9-470b-812a-2857ec4c40d7)
 >
+>
+> ### Automatizando tarefas
+> - O editor ```nano``` é mais uma alternativa para edição de textos no terminal, e está disponível em quase todas as distribuições linux, assim como o ```vim```.
 > 
+>
 > ## Monitoramento e agendamento
 > 
 > ### Processando textos para coleta de dados
