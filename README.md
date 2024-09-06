@@ -74,10 +74,33 @@ Repositório dedicado ao estudo sobre como trabalhar com o servidor Linux, const
 > - ```rm``` seguido do nome de um arquivo remove este.
 > - ```rmdir``` seguido do nome apaga diretório, se este diretório estiver vazio.
 > - ```top``` mostra os processos em execução ordenados pelo uso de CPU (Ctrl + C para sair).
-> - ```ps```mostra os processos com o numero PID.
-> - ```shutdown``` Desliga o computador.
+> - ```ps``` mostra os processos com o numero PID.
+> - ```shutdown``` desliga o computador.
 > - ```mkdir``` Cria nova pasta, diretório.
 > - ```history``` visualizar a lista de comandos que foi executada.
+> - ```ls -la``` lista rquivos ocultos de forma detalhada.
+> - ```whatis``` verifica a descrição simples de um comando.
+> - ```vi``` é o edito básico em grande parte das distribuições.
+> - ```tar``` agrupa vários arquivos em apenas um.
+>
+> 
+## Shell
+> ### O que é o Shell?
+> - é a interface de acesso ao sistema operacional, onde é possível interagir com o sistema por meio de comandos digitados do teclado. Ele pode ser acessado pelo modo gráfico e diretamente em modo texto.
+>   
+> ```angelica@oliveira:~-$```
+> - ubuntu é o nome do usuário.
+> - @servidor é o nome do host.
+> - ~ é a abreviação para a pasta do usuário.
+> - $ indica que o usuário não possui poderes administrativos.
+>
+>   
+## Shell Script
+> - É um programa não compilado que é enviado para um processador. Em seguida, um interpretador lê seu código e o traduz, de modo que o processo entende suas instruções que serão executadas em seguida.
+>   
+> - Shell Script é a linguagem de programação utilizada pelo shell no caso o shell é o nosso interpretador que vai ler os nossos programase dizer ao processadoro que fazer.
+>   
+> - Programas em shell scripts são escritos para tarefas administrativas e repetitivasno Linux.
 > 
 >
 ## Explorando o Linux Server
